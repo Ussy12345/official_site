@@ -1,0 +1,29 @@
+# ============================================================
+#  RankRush — robots.txt
+#  Upload this file to: https://rankrush.app/robots.txt
+# ============================================================
+
+User-agent: *
+Allow: /
+
+# Block admin and private paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /.firebase/
+Disallow: /functions/
+Disallow: /node_modules/
+
+# Allow Google AdSense crawler
+User-agent: Mediapartners-Google
+Allow: /
+
+# Allow Google AdsBot
+User-agent: AdsBot-Google
+Allow: /
+
+# Sitemap location — tells ALL crawlers where to find it
+Sitemap: https://rankrush-com.onrender.com/sitemap.xml
+
+
+# Crawl delay (optional — keeps server load manageable)
+Crawl-delay: 10

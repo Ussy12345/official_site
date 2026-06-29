@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+=================================================================
+  RANKRUSH — SITEMAP.XML
+  Upload this file to: https://rankrush.app/sitemap.xml
+  Then submit it in Google Search Console:
+  1. Go to https://search.google.com/search-console
+  2. Left menu > Sitemaps
+  3. Enter: sitemap.xml
+  4. Click Submit
+=================================================================
+-->
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+  xsi:schemaLocation="
+    http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ── HOMEPAGE ──────────────────────────────────────────── -->
+  <url>
+    <loc>https://rankrush-com.onrender.com/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://rankrush-com.onrender.com/og-image.png</image:loc>
+      <image:title>RankRush — Compete. Earn. Rise.</image:title>
+      <image:caption>The free competitive rewards app. Answer quizzes and earn real money.</image:caption>
+    </image:image>
+    <mobile:mobile/>
+  </url>
+
+  <!-- ── DOWNLOAD PAGE ─────────────────────────────────────── -->
+  <url>
+    <loc>https://rankrush-com.onrender.com/download</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- ── ANDROID APK DIRECT DOWNLOAD ──────────────────────── -->
+  <url>
+    <loc>https://rankrush-com.onrender.com/download/android</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- ── HOW IT WORKS ──────────────────────────────────────── -->
+  <url>
+    <loc>https://rankrush-com.onrender.com/#how-it-works</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- ── ACTIVITIES ────────────────────────────────────────── -->
+  <url>
+    <loc>https://rankrush-com.onrender.com/#activities</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- ── EARNINGS / WALLET ─────────────────────────────────── -->
+  <url>
+    <loc>https://rankrush-com.onrender.com/#earn</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- ── PRIVACY POLICY ────────────────────────────────────── -->
+  <url>
+    <loc>https://rankrush-com.onrender.com/privacy</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- ── TERMS OF SERVICE ──────────────────────────────────── -->
+  <url>
+    <loc>https://rankrush-com.onrender.com/terms</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- ── REFERRAL JOIN PAGE ────────────────────────────────── -->
+  <url>
+    <loc>https://rankrush-com.onrender.com/join</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- ── SUPPORT / CONTACT ─────────────────────────────────── -->
+  <url>
+    <loc>https://rankrush-com.onrender.com/support</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <mobile:mobile/>
+  </url>
+
+</urlset>
