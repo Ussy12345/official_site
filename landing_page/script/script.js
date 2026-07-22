@@ -94,7 +94,7 @@ var balEl=document.getElementById('ew-bal-val');
 if(balEl){
   var balObs=new IntersectionObserver(function(entries){
     if(entries[0].isIntersecting){
-      var val=0,target=3.50;
+      var val=0,target=5000;
       var t=setInterval(function(){
         val+=0.05;
         if(val>=target){val=target;clearInterval(t);}
