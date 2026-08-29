@@ -1,716 +1,1543 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<meta name="google-site-verification" content="mcyz2QUK9lTyLCIeyXMuZbJmGofZLSoTM7HB4ql8XZY">
+<meta name="google-site-verification"
+      content="mcyz2QUK9lTyLCIeyXMuZbJmGofZLSoTM7HB4ql8XZY">
 
 <title>RankRush — Compete. Learn. Rise.</title>
-<link rel="stylesheet" href="style/style.css">
 
-<meta name="description" content="RankRush is a competitive quiz and progression platform where players answer questions, complete activities, earn XP, and compete on seasonal leaderboards.">
-<meta name="keywords" content="RankRush, quiz game, trivia game, leaderboard, competitive quiz, XP game, educational game, Android game">
+<meta
+  name="description"
+  content="RankRush is a competitive quiz and progression platform where users answer questions, complete eligible activities, participate in available surveys, earn XP and compete on seasonal leaderboards."
+>
+
+<meta
+  name="keywords"
+  content="RankRush, quiz game, trivia game, survey rewards, leaderboard, competitive quiz, XP game, educational game"
+>
+
 <meta name="author" content="Usman Shehu">
 <meta name="publisher" content="RankRush">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-<link rel="canonical" href="https://rankrush-com.onrender.com/">
+<meta
+  name="robots"
+  content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+>
+
+<link
+  rel="canonical"
+  href="https://rankrush-com.onrender.com/"
+>
 
 <!-- OPEN GRAPH -->
+
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="RankRush">
-<meta property="og:title" content="RankRush — Compete. Learn. Rise.">
-<meta property="og:description" content="Answer quizzes, complete activities, earn XP and compete on the RankRush seasonal leaderboard.">
-<meta property="og:url" content="https://rankrush-com.onrender.com/">
-<meta property="og:image" content="https://rankrush-com.onrender.com/og-image.png">
+
+<meta
+  property="og:title"
+  content="RankRush — Compete. Learn. Rise."
+>
+
+<meta
+  property="og:description"
+  content="Answer quizzes, complete activities, participate in available surveys, earn XP and compete on the RankRush seasonal leaderboard."
+>
+
+<meta
+  property="og:url"
+  content="https://rankrush-com.onrender.com/"
+>
+
+<meta
+  property="og:image"
+  content="https://rankrush-com.onrender.com/og-image.png"
+>
+
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="RankRush competitive quiz platform">
+
+<meta
+  property="og:image:alt"
+  content="RankRush competitive quiz and survey platform"
+>
 
 <!-- TWITTER -->
+
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="RankRush — Compete. Learn. Rise.">
-<meta name="twitter:description" content="Answer quizzes, earn XP and compete on the RankRush leaderboard.">
-<meta name="twitter:image" content="https://rankrush-com.onrender.com/og-image.png">
+
+<meta
+  name="twitter:title"
+  content="RankRush — Compete. Learn. Rise."
+>
+
+<meta
+  name="twitter:description"
+  content="Answer quizzes, earn XP, participate in available surveys and compete on the RankRush leaderboard."
+>
+
+<meta
+  name="twitter:image"
+  content="https://rankrush-com.onrender.com/og-image.png"
+>
 
 <!-- MOBILE -->
+
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="application-name" content="RankRush">
+
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="RankRush">
+
 <meta name="theme-color" content="#080A0C">
 
 <!-- ICONS -->
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel="icon"
+      type="image/x-icon"
+      href="/favicon.ico">
+
+<link rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon-32x32.png">
+
+<link rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon-16x16.png">
+
+<link rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-touch-icon.png">
 
 <!-- FONT -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect"
+      href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+  rel="stylesheet"
+>
 
 <!-- STRUCTURED DATA -->
+
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@graph":[
+  "@context": "https://schema.org",
+  "@graph": [
+
     {
-      "@type":"WebSite",
-      "@id":"https://rankrush-com.onrender.com/#website",
-      "url":"https://rankrush-com.onrender.com/",
-      "name":"RankRush",
-      "description":"A competitive quiz and progression platform.",
-      "publisher":{
-        "@id":"https://rankrush-com.onrender.com/#organization"
+      "@type": "WebSite",
+      "@id": "https://rankrush-com.onrender.com/#website",
+      "url": "https://rankrush-com.onrender.com/",
+      "name": "RankRush",
+      "description": "A competitive quiz, progression and survey rewards platform.",
+      "publisher": {
+        "@id": "https://rankrush-com.onrender.com/#organization"
       }
     },
+
     {
-      "@type":"Organization",
-      "@id":"https://rankrush-com.onrender.com/#organization",
-      "name":"RankRush",
-      "url":"https://rankrush-com.onrender.com/",
-      "logo":{
-        "@type":"ImageObject",
-        "url":"https://rankrush-com.onrender.com/logo-512.png"
+      "@type": "Organization",
+      "@id": "https://rankrush-com.onrender.com/#organization",
+      "name": "RankRush",
+      "url": "https://rankrush-com.onrender.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://rankrush-com.onrender.com/logo-512.png"
       },
-      "contactPoint":{
-        "@type":"ContactPoint",
-        "email":"zannur123456789@gmail.com",
-        "contactType":"customer support"
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "zannur123456789@gmail.com",
+        "contactType": "customer support"
       }
     },
+
     {
-      "@type":"SoftwareApplication",
-      "@id":"https://rankrush-com.onrender.com/#app",
-      "name":"RankRush",
-      "operatingSystem":"Android",
-      "applicationCategory":"GameApplication",
-      "applicationSubCategory":"Trivia",
-      "description":"RankRush is a competitive quiz and progression platform where players answer questions, earn XP and compete on seasonal leaderboards.",
-      "url":"https://rankrush-com.onrender.com/",
-      "offers":{
-        "@type":"Offer",
-        "price":"0",
-        "priceCurrency":"USD"
+      "@type": "SoftwareApplication",
+      "@id": "https://rankrush-com.onrender.com/#app",
+      "name": "RankRush",
+      "operatingSystem": "Android",
+      "applicationCategory": "GameApplication",
+      "applicationSubCategory": "Trivia",
+      "description": "RankRush is a competitive quiz and progression platform where users answer questions, participate in eligible surveys and activities, earn XP and compete on seasonal leaderboards.",
+      "url": "https://rankrush-com.onrender.com/",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
       },
-      "author":{
-        "@type":"Person",
-        "name":"Usman Shehu"
+      "author": {
+        "@type": "Person",
+        "name": "Usman Shehu"
       }
     }
+
   ]
 }
 </script>
+
 </head>
+
 
 <body>
 
-<!-- NAVIGATION -->
+<!-- =========================================================
+     NAVIGATION
+========================================================= -->
+
 <nav>
+
   <div class="nav-logo">
-    <div class="nav-logo-mark">R</div>
+
+    <div class="nav-logo-mark">
+      R
+    </div>
+
     RankRush
+
   </div>
+
 
   <div class="nav-links">
-    <a href="#how-it-works">How it works</a>
-    <a href="#activities">Activities</a>
-    <a href="#rewards">Rewards</a>
-    <a href="#faq">FAQ</a>
-    <a href="#download">Download</a>
+
+    <a href="#how-it-works">
+      How it works
+    </a>
+
+    <a href="#activities">
+      Activities
+    </a>
+
+    <a href="#surveys">
+      Surveys
+    </a>
+
+    <a href="#rewards">
+      Rewards
+    </a>
+
+    <a href="#faq">
+      FAQ
+    </a>
+
+    <a href="#download">
+      Download
+    </a>
+
   </div>
 
-  <a href="#download" class="nav-cta">Get RankRush</a>
-  <a href="#download" class="nav-mobile-cta">Get App</a>
+
+  <a href="#download" class="nav-cta">
+    Get RankRush
+  </a>
+
+  <a href="#download" class="nav-mobile-cta">
+    Get App
+  </a>
+
 </nav>
 
-<!-- HERO -->
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
 <section class="hero">
+
   <div class="hero-bg"></div>
   <div class="hero-grid"></div>
 
+
   <div class="hero-eyebrow">
+
     <div class="hero-eyebrow-dot"></div>
-    Competitive quiz platform
+
+    Competitive quiz & survey platform
+
   </div>
+
 
   <h1 class="display hero-title">
+
     Compete.<br>
-    <span class="accent">Learn.</span><br>
-    <span class="accent-red">Rise.</span>
+
+    <span class="accent">
+      Learn.
+    </span><br>
+
+    <span class="accent-red">
+      Rise.
+    </span>
+
   </h1>
 
+
   <p class="hero-sub">
-    Answer quizzes, complete activities, earn XP and compete
-    with other players on the RankRush seasonal leaderboard.
+
+    Answer quizzes, build XP, participate in
+    available surveys and compete with other
+    players on the RankRush seasonal leaderboard.
+
   </p>
 
+
   <div class="hero-actions">
-    <a href="#download" class="btn-primary">Download RankRush</a>
-    <a href="#how-it-works" class="btn-secondary">See how it works</a>
+
+    <a href="#download" class="btn-primary">
+      Download RankRush
+    </a>
+
+    <a href="#how-it-works" class="btn-secondary">
+      See how it works
+    </a>
+
   </div>
+
 
   <!-- SAMPLE LEADERBOARD -->
+
   <div class="ticker-section reveal">
+
     <div class="ticker-label">
+
       <div class="ticker-live-dot"></div>
+
       Sample leaderboard
+
     </div>
-    <div class="ticker-board" id="tickerBoard"></div>
+
+    <div
+      class="ticker-board"
+      id="tickerBoard"
+    ></div>
+
   </div>
+
 
   <div class="hero-trust">
-    <span>✓ Free to use</span>
-    <span>✓ Competitive quizzes</span>
-    <span>✓ Seasonal rankings</span>
+
+    <span>
+      ✓ Free to access
+    </span>
+
+    <span>
+      ✓ Competitive quizzes
+    </span>
+
+    <span>
+      ✓ Available surveys
+    </span>
+
+    <span>
+      ✓ Seasonal rankings
+    </span>
+
   </div>
+
 </section>
 
-<!-- STATS / PRODUCT FEATURES -->
+
+<!-- =========================================================
+     STATS
+========================================================= -->
+
 <div class="stats-strip reveal">
-  <div class="stat-item">
-    <div class="stat-val"><span>XP</span></div>
-    <div class="stat-lbl">Experience system</div>
-  </div>
 
   <div class="stat-item">
-    <div class="stat-val"><span>60</span></div>
-    <div class="stat-lbl">Day season structure</div>
+
+    <div class="stat-val">
+      <span>XP</span>
+    </div>
+
+    <div class="stat-lbl">
+      Experience system
+    </div>
+
   </div>
 
-  <div class="stat-item">
-    <div class="stat-val"><span>4h</span></div>
-    <div class="stat-lbl">Example activity cooldown</div>
-  </div>
 
   <div class="stat-item">
-    <div class="stat-val"><span>∞</span></div>
-    <div class="stat-lbl">Competition</div>
+
+    <div class="stat-val">
+      <span>60</span>
+    </div>
+
+    <div class="stat-lbl">
+      Example season structure
+    </div>
+
   </div>
+
+
+  <div class="stat-item">
+
+    <div class="stat-val">
+      <span>✓</span>
+    </div>
+
+    <div class="stat-lbl">
+      Survey opportunities
+    </div>
+
+  </div>
+
+
+  <div class="stat-item">
+
+    <div class="stat-val">
+      <span>∞</span>
+    </div>
+
+    <div class="stat-lbl">
+      Competition
+    </div>
+
+  </div>
+
 </div>
 
-<!-- HOW IT WORKS -->
+
+<!-- =========================================================
+     HOW IT WORKS
+========================================================= -->
+
 <section id="how-it-works" class="section">
+
   <div class="section-header reveal">
-    <span class="label">The RankRush loop</span>
+
+    <span class="label">
+      The RankRush loop
+    </span>
+
     <h2 class="display-sm">
+
       Simple to play.<br>
       Easy to understand.
+
     </h2>
+
   </div>
+
 
   <div class="steps-grid reveal">
+
+
     <div class="step-card">
-      <span class="step-num">01</span>
-      <div class="step-icon">🧠</div>
-      <div class="step-title">Answer quizzes</div>
+
+      <span class="step-num">
+        01
+      </span>
+
+      <div class="step-icon">
+        🧠
+      </div>
+
+      <div class="step-title">
+        Answer quizzes
+      </div>
+
       <div class="step-body">
+
         Test your knowledge with quiz questions
-        and improve your score through correct answers.
+        and build your RankRush XP through
+        eligible gameplay.
+
       </div>
+
     </div>
 
-    <div class="step-card">
-      <span class="step-num">02</span>
-      <div class="step-icon">🎯</div>
-      <div class="step-title">Complete activities</div>
-      <div class="step-body">
-        Take part in available RankRush activities
-        and collect XP or other in-platform rewards
-        that are clearly shown before participation.
-      </div>
-    </div>
 
     <div class="step-card">
-      <span class="step-num">03</span>
-      <div class="step-icon">🏆</div>
-      <div class="step-title">Climb the leaderboard</div>
-      <div class="step-body">
-        Your progress contributes to your RankRush
-        profile and seasonal leaderboard position.
+
+      <span class="step-num">
+        02
+      </span>
+
+      <div class="step-icon">
+        📋
       </div>
+
+      <div class="step-title">
+        Find available surveys
+      </div>
+
+      <div class="step-body">
+
+        View survey opportunities available to
+        your profile and participate when you
+        meet the applicable requirements.
+
+      </div>
+
     </div>
 
+
     <div class="step-card">
-      <span class="step-num">04</span>
-      <div class="step-icon">📊</div>
-      <div class="step-title">Track your progress</div>
-      <div class="step-body">
-        Review your XP, activity history and
-        leaderboard position from your account.
+
+      <span class="step-num">
+        03
+      </span>
+
+      <div class="step-icon">
+        🏆
       </div>
+
+      <div class="step-title">
+        Build your rank
+      </div>
+
+      <div class="step-body">
+
+        Your verified progress contributes to
+        your RankRush profile and seasonal
+        leaderboard position.
+
+      </div>
+
     </div>
+
+
+    <div class="step-card">
+
+      <span class="step-num">
+        04
+      </span>
+
+      <div class="step-icon">
+        📊
+      </div>
+
+      <div class="step-title">
+        Track your progress
+      </div>
+
+      <div class="step-body">
+
+        Review your XP, activity history,
+        survey activity and leaderboard
+        position from your account.
+
+      </div>
+
+    </div>
+
+
   </div>
+
 </section>
 
-<!-- ACTIVITIES -->
+
+<!-- =========================================================
+     ACTIVITIES
+========================================================= -->
+
 <section id="activities" class="activities-section">
+
   <div class="activities-inner">
+
+
     <div class="section-header reveal">
-      <span class="label">Activities</span>
+
+      <span class="label">
+        Activities
+      </span>
+
       <h2 class="display-sm">
+
         Different ways to<br>
         play RankRush.
+
       </h2>
-      <p class="body-lg" style="max-width:620px;margin:1rem auto 0">
-        RankRush includes activities designed around
-        quizzes, progression and competition.
+
+      <p
+        class="body-lg"
+        style="max-width:620px;margin:1rem auto 0"
+      >
+
+        RankRush combines quizzes, progression,
+        competition and available survey
+        opportunities in one platform.
+
       </p>
+
     </div>
+
 
     <div class="activities-grid">
+
+
       <div class="act-card reveal">
-        <div class="act-card-icon">🧠</div>
-        <div class="act-card-name">Quiz Challenge</div>
+
+        <div class="act-card-icon">
+          🧠
+        </div>
+
+        <div class="act-card-name">
+          Quiz Challenge
+        </div>
+
         <div class="act-card-desc">
+
           Answer general-knowledge questions
-          and earn XP for correct answers.
+          and earn XP through correct answers.
+
         </div>
-        <div class="act-card-badge">XP activity</div>
+
+        <div class="act-card-badge">
+          XP activity
+        </div>
+
       </div>
 
-      <div class="act-card reveal">
-        <div class="act-card-icon">📦</div>
-        <div class="act-card-name">Reward Chest</div>
-        <div class="act-card-desc">
-          Open available in-platform reward chests
-          to receive the reward shown before opening.
-        </div>
-        <div class="act-card-badge">In-platform reward</div>
-      </div>
 
       <div class="act-card reveal">
-        <div class="act-card-icon">🎡</div>
-        <div class="act-card-name">Spin Activity</div>
-        <div class="act-card-desc">
-          Participate in available spin activities
-          and see the applicable outcomes before participation.
+
+        <div class="act-card-icon">
+          📋
         </div>
-        <div class="act-card-badge">Activity</div>
+
+        <div class="act-card-name">
+          Surveys
+        </div>
+
+        <div class="act-card-desc">
+
+          Explore available market-research
+          surveys matched to your profile and
+          eligibility.
+
+        </div>
+
+        <div class="act-card-badge">
+          Survey activity
+        </div>
+
       </div>
 
-      <div class="act-card reveal">
-        <div class="act-card-icon">🔥</div>
-        <div class="act-card-name">Daily Streak</div>
-        <div class="act-card-desc">
-          Maintain your activity streak and receive
-          the applicable in-platform progression bonus.
-        </div>
-        <div class="act-card-badge">Progression</div>
-      </div>
 
       <div class="act-card reveal">
-        <div class="act-card-icon">🏆</div>
-        <div class="act-card-name">Leaderboard</div>
-        <div class="act-card-desc">
-          Compare your XP and position against
-          other participating players.
+
+        <div class="act-card-icon">
+          🔥
         </div>
-        <div class="act-card-badge">Competition</div>
+
+        <div class="act-card-name">
+          Daily Progress
+        </div>
+
+        <div class="act-card-desc">
+
+          Keep participating in eligible RankRush
+          activities and continue building your
+          progression.
+
+        </div>
+
+        <div class="act-card-badge">
+          Progression
+        </div>
+
       </div>
 
+
       <div class="act-card reveal">
-        <div class="act-card-icon">👥</div>
-        <div class="act-card-name">Referrals</div>
-        <div class="act-card-desc">
-          Invite friends using your referral system
-          where available and subject to the current rules.
+
+        <div class="act-card-icon">
+          🏆
         </div>
-        <div class="act-card-badge">Optional</div>
+
+        <div class="act-card-name">
+          Leaderboard
+        </div>
+
+        <div class="act-card-desc">
+
+          Compare your verified XP and position
+          against other participating players.
+
+        </div>
+
+        <div class="act-card-badge">
+          Competition
+        </div>
+
       </div>
+
+
+      <div class="act-card reveal">
+
+        <div class="act-card-icon">
+          👥
+        </div>
+
+        <div class="act-card-name">
+          Referrals
+        </div>
+
+        <div class="act-card-desc">
+
+          Invite friends through the referral
+          system where available and subject
+          to the current rules.
+
+        </div>
+
+        <div class="act-card-badge">
+          Optional
+        </div>
+
+      </div>
+
+
+      <div class="act-card reveal">
+
+        <div class="act-card-icon">
+          📈
+        </div>
+
+        <div class="act-card-name">
+          Progress History
+        </div>
+
+        <div class="act-card-desc">
+
+          Review your activity and progression
+          history from your RankRush account.
+
+        </div>
+
+        <div class="act-card-badge">
+          Tracking
+        </div>
+
+      </div>
+
+
     </div>
+
   </div>
+
 </section>
 
-<!-- REWARDS / TRANSPARENCY -->
-<section id="rewards" class="rewards-section">
+
+<!-- =========================================================
+     SURVEYS
+========================================================= -->
+
+<section id="surveys" class="rewards-section">
+
   <div class="rewards-box reveal">
 
-    <div>
-      <span class="label">Rewards & progression</span>
 
-      <h2 class="display-sm" style="margin-top:.75rem">
-        Know what you<br>
-        are receiving.
+    <div>
+
+      <span class="label">
+        Survey opportunities
+      </span>
+
+
+      <h2
+        class="display-sm"
+        style="margin-top:.75rem"
+      >
+
+        Share your opinion.<br>
+        Earn eligible rewards.
+
       </h2>
 
-      <p class="body-lg" style="margin-top:1rem">
-        RankRush displays the applicable reward
-        and the requirements for an activity before
-        the user participates.
+
+      <p
+        class="body-lg"
+        style="margin-top:1rem"
+      >
+
+        RankRush may connect users with third-party
+        survey providers that offer market-research
+        opportunities.
+
       </p>
+
 
       <div class="reward-list">
 
-        <div class="reward-item">
-          <div class="reward-check">✓</div>
-          <div>
-            <strong>Clear reward information</strong>
-            <span>
-              Users can see the applicable in-platform
-              reward before participating in a rewarded activity.
-            </span>
-          </div>
-        </div>
 
         <div class="reward-item">
-          <div class="reward-check">✓</div>
-          <div>
-            <strong>Optional rewarded experiences</strong>
-            <span>
-              A rewarded advertising experience should only
-              be presented when the user chooses to participate.
-            </span>
+
+          <div class="reward-check">
+            ✓
           </div>
+
+          <div>
+
+            <strong>
+              Survey matching
+            </strong>
+
+            <span>
+
+              Available surveys may depend on
+              your profile, location, eligibility,
+              survey demand and available quotas.
+
+            </span>
+
+          </div>
+
         </div>
 
-        <div class="reward-item">
-          <div class="reward-check">✓</div>
-          <div>
-            <strong>Progress is tracked</strong>
-            <span>
-              XP and activity history can be reviewed
-              from the user's RankRush account.
-            </span>
-          </div>
-        </div>
 
         <div class="reward-item">
-          <div class="reward-check">✓</div>
-          <div>
-            <strong>No guaranteed earnings claim</strong>
-            <span>
-              RankRush does not promise a specific amount
-              of money simply for viewing advertisements
-              or participating in activities.
-            </span>
+
+          <div class="reward-check">
+            ✓
           </div>
+
+          <div>
+
+            <strong>
+              Clear participation
+            </strong>
+
+            <span>
+
+              Users choose whether to participate
+              in an available survey.
+
+            </span>
+
+          </div>
+
         </div>
+
+
+        <div class="reward-item">
+
+          <div class="reward-check">
+            ✓
+          </div>
+
+          <div>
+
+            <strong>
+              Verified rewards
+            </strong>
+
+            <span>
+
+              Eligible survey rewards are credited
+              after the relevant provider confirms
+              the qualifying activity.
+
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <div class="reward-item">
+
+          <div class="reward-check">
+            ✓
+          </div>
+
+          <div>
+
+            <strong>
+              No guaranteed earnings
+            </strong>
+
+            <span>
+
+              Survey availability and reward amounts
+              can vary. RankRush does not promise
+              a specific amount of earnings.
+
+            </span>
+
+          </div>
+
+        </div>
+
 
       </div>
+
     </div>
+
 
     <div class="disclosure-box">
-      <h3>Advertising disclosure</h3>
+
+      <h3>
+        Survey provider disclosure
+      </h3>
+
 
       <p>
-        RankRush may display advertising supplied by
-        third-party advertising providers.
+
+        RankRush may use independent survey
+        providers to supply survey opportunities.
+
       </p>
 
-      <p>
-        Advertising providers may differ depending on
-        the platform or RankRush experience. For example,
-        the Android application may use an Android-compatible
-        advertising SDK, while the H5/web experience may use
-        a separate web-compatible advertising provider.
-      </p>
 
       <p>
-        When a rewarded advertising experience is available,
-        the user should be informed of the action required
-        and the applicable in-platform reward before choosing
-        to participate.
+
+        Providers may include services such as
+        inBrain and BitLabs, depending on current
+        RankRush integrations and availability.
+
       </p>
 
-      <p>
-        Advertising providers may process information such as
-        device identifiers, advertising identifiers, IP address,
-        approximate location and usage information according to
-        their own privacy policies and applicable law.
-      </p>
 
       <p>
-        RankRush does not ask users to click advertisements,
-        click advertisements to support the platform, or
-        interact with advertisements fraudulently.
+
+        Survey providers may have their own
+        privacy policies, terms and eligibility
+        requirements.
+
       </p>
+
+
+      <p>
+
+        RankRush does not guarantee that a
+        particular survey will be available or
+        that a user will qualify for it.
+
+      </p>
+
+
+      <p>
+
+        Users should review the applicable
+        provider information before participating.
+
+      </p>
+
     </div>
 
+
   </div>
+
 </section>
 
-<!-- PLATFORM INFORMATION -->
+
+<!-- =========================================================
+     PLATFORM
+========================================================= -->
+
 <section class="season-section">
+
   <div class="season-inner">
 
-    <div class="reveal">
-      <span class="label">Platform availability</span>
 
-      <h2 class="display-sm" style="margin:.75rem 0 .5rem">
+    <div class="reveal">
+
+      <span class="label">
+        Platform availability
+      </span>
+
+
+      <h2
+        class="display-sm"
+        style="margin:.75rem 0 .5rem"
+      >
+
         RankRush across<br>
         supported platforms.
+
       </h2>
 
+
       <p class="body">
-        RankRush may provide Android and H5/web experiences.
-        Features and advertising providers can differ between
-        supported platforms.
+
+        RankRush may provide Android and H5/web
+        experiences. Features and available
+        activities may differ between platforms.
+
       </p>
+
     </div>
+
 
     <div class="season-info reveal">
 
-      <p>
-        <strong style="color:var(--cream)">Android:</strong>
-        The RankRush Android application provides the
-        mobile app experience and may use Android advertising
-        services such as AdMob.
-      </p>
 
       <p>
-        <strong style="color:var(--cream)">H5/Web:</strong>
-        The H5/web experience is designed for supported
-        browsers and may use a separate web-compatible
-        advertising provider.
+
+        <strong style="color:var(--cream)">
+          Android:
+        </strong>
+
+        The RankRush Android application provides
+        the mobile RankRush experience.
+
       </p>
 
-      <p>
-        <strong style="color:var(--cream)">Accounts:</strong>
-        Where supported, users can access their RankRush
-        account and platform progress through the applicable
-        RankRush experience.
-      </p>
 
       <p>
-        <strong style="color:var(--cream)">Important:</strong>
-        Availability of features, advertisements, rewards,
-        seasons and other platform functionality may vary
-        according to the current RankRush rules.
+
+        <strong style="color:var(--cream)">
+          H5/Web:
+        </strong>
+
+        The H5/web experience is designed for
+        supported browsers and may provide
+        selected RankRush features.
+
       </p>
+
+
+      <p>
+
+        <strong style="color:var(--cream)">
+          Accounts:
+        </strong>
+
+        Users can access their RankRush account,
+        progression and supported activities
+        through the applicable RankRush experience.
+
+      </p>
+
+
+      <p>
+
+        <strong style="color:var(--cream)">
+          Important:
+        </strong>
+
+        Features, surveys, rewards and other
+        functionality may vary according to
+        current RankRush rules and availability.
+
+      </p>
+
 
     </div>
 
-    <a href="#download" class="btn-primary reveal">
+
+    <a
+      href="#download"
+      class="btn-primary reveal"
+    >
       Explore RankRush
     </a>
 
+
   </div>
+
 </section>
 
-<!-- SEASON INFORMATION -->
+
+<!-- =========================================================
+     SEASONS
+========================================================= -->
+
 <section class="season-section">
+
   <div class="season-inner">
 
-    <div class="reveal">
-      <span class="label">Seasonal competition</span>
 
-      <h2 class="display-sm" style="margin:.75rem 0 .5rem">
+    <div class="reveal">
+
+      <span class="label">
+        Seasonal competition
+      </span>
+
+
+      <h2
+        class="display-sm"
+        style="margin:.75rem 0 .5rem"
+      >
+
         Compete throughout<br>
         each season.
+
       </h2>
 
+
       <p class="body">
+
         RankRush uses seasonal competition to
-        organize player progress and leaderboard rankings.
+        organize player progression and
+        leaderboard rankings.
+
       </p>
+
     </div>
+
 
     <div class="season-info reveal">
+
+
       <p>
-        <strong style="color:var(--cream)">Season length:</strong>
+
+        <strong style="color:var(--cream)">
+          Season:
+        </strong>
+
         RankRush may organize competition into
-        defined seasons. The current season dates
-        are shown inside the platform.
-      </p>
-
-      <p>
-        <strong style="color:var(--cream)">Leaderboard:</strong>
-        Players can track their position and XP
-        during the active season.
-      </p>
-
-      <p>
-        <strong style="color:var(--cream)">Rewards:</strong>
-        Any applicable promotional, platform or
-        seasonal rewards are subject to the RankRush
-        Terms of Service and the rules displayed
+        defined seasons. Current dates are shown
         inside the platform.
+
       </p>
 
+
       <p>
-        <strong style="color:var(--cream)">Important:</strong>
-        Past performance does not guarantee future
-        rewards or earnings.
+
+        <strong style="color:var(--cream)">
+          Leaderboard:
+        </strong>
+
+        Players can track their verified XP and
+        position during the active season.
+
       </p>
+
+
+      <p>
+
+        <strong style="color:var(--cream)">
+          Rewards:
+        </strong>
+
+        Applicable rewards are subject to the
+        RankRush Terms of Service and the rules
+        displayed inside the platform.
+
+      </p>
+
+
+      <p>
+
+        <strong style="color:var(--cream)">
+          Important:
+        </strong>
+
+        Past performance does not guarantee
+        future rewards or earnings.
+
+      </p>
+
+
     </div>
 
-    <a href="#download" class="btn-primary reveal">
+
+    <a
+      href="#download"
+      class="btn-primary reveal"
+    >
       Explore RankRush
     </a>
+
+
   </div>
+
 </section>
 
-<!-- FAQ -->
+
+<!-- =========================================================
+     FAQ
+========================================================= -->
+
 <section id="faq" class="faq-section">
+
   <div class="section-header reveal">
-    <span class="label">Frequently asked questions</span>
-    <h2 class="display-sm">Questions & answers.</h2>
+
+    <span class="label">
+      Frequently asked questions
+    </span>
+
+    <h2 class="display-sm">
+      Questions & answers.
+    </h2>
+
   </div>
+
 
   <div class="faq-list">
 
-    <div class="faq-item reveal">
-      <button class="faq-question" type="button">
-        <span>What is RankRush?</span>
-        <span class="faq-plus">+</span>
-      </button>
-      <div class="faq-answer">
-        RankRush is a competitive quiz and progression
-        platform where users can answer questions,
-        participate in activities, earn XP and compete
-        on seasonal leaderboards.
-      </div>
-    </div>
 
     <div class="faq-item reveal">
-      <button class="faq-question" type="button">
-        <span>Is RankRush free?</span>
-        <span class="faq-plus">+</span>
+
+      <button
+        class="faq-question"
+        type="button"
+      >
+
+        <span>
+          What is RankRush?
+        </span>
+
+        <span class="faq-plus">
+          +
+        </span>
+
       </button>
+
+
       <div class="faq-answer">
-        RankRush is designed to be free to access.
-        Some features may depend on availability,
-        account status and the rules displayed
-        within the platform.
+
+        RankRush is a competitive quiz and
+        progression platform where users can
+        answer questions, participate in
+        available activities and surveys,
+        earn XP and compete on seasonal
+        leaderboards.
+
       </div>
+
     </div>
 
-    <div class="faq-item reveal">
-      <button class="faq-question" type="button">
-        <span>How does XP work?</span>
-        <span class="faq-plus">+</span>
-      </button>
-      <div class="faq-answer">
-        XP represents progression within RankRush.
-        Your XP can contribute to your leaderboard
-        position and other platform features according
-        to the current RankRush rules.
-      </div>
-    </div>
 
     <div class="faq-item reveal">
-      <button class="faq-question" type="button">
-        <span>Are advertisements required?</span>
-        <span class="faq-plus">+</span>
+
+      <button
+        class="faq-question"
+        type="button"
+      >
+
+        <span>
+          Is RankRush free?
+        </span>
+
+        <span class="faq-plus">
+          +
+        </span>
+
       </button>
+
+
       <div class="faq-answer">
-        Some RankRush experiences may include advertising.
-        Where a rewarded advertising experience is offered,
-        the user should be given clear information about
-        the required action and the applicable in-platform
-        reward before choosing to participate.
+
+        RankRush is designed to be free to
+        access. Some activities and features
+        depend on availability and eligibility.
+
       </div>
+
     </div>
 
+
     <div class="faq-item reveal">
-      <button class="faq-question" type="button">
-        <span>Does RankRush guarantee earnings?</span>
-        <span class="faq-plus">+</span>
+
+      <button
+        class="faq-question"
+        type="button"
+      >
+
+        <span>
+          How do surveys work?
+        </span>
+
+        <span class="faq-plus">
+          +
+        </span>
+
       </button>
+
+
       <div class="faq-answer">
+
+        RankRush may display survey opportunities
+        supplied by independent survey providers.
+        Available surveys depend on factors such
+        as user profile, location, eligibility and
+        survey demand.
+
+      </div>
+
+    </div>
+
+
+    <div class="faq-item reveal">
+
+      <button
+        class="faq-question"
+        type="button"
+      >
+
+        <span>
+          Will everyone receive the same surveys?
+        </span>
+
+        <span class="faq-plus">
+          +
+        </span>
+
+      </button>
+
+
+      <div class="faq-answer">
+
+        No. Survey availability can differ between
+        users because providers match surveys using
+        eligibility, profile information, location,
+        quotas and research requirements.
+
+      </div>
+
+    </div>
+
+
+    <div class="faq-item reveal">
+
+      <button
+        class="faq-question"
+        type="button"
+      >
+
+        <span>
+          Does completing a survey guarantee a reward?
+        </span>
+
+        <span class="faq-plus">
+          +
+        </span>
+
+      </button>
+
+
+      <div class="faq-answer">
+
+        Eligible rewards are normally credited after
+        the applicable survey provider confirms the
+        qualifying activity. Invalid, rejected,
+        reversed or fraudulent activity may not
+        receive a reward.
+
+      </div>
+
+    </div>
+
+
+    <div class="faq-item reveal">
+
+      <button
+        class="faq-question"
+        type="button"
+      >
+
+        <span>
+          Does RankRush guarantee earnings?
+        </span>
+
+        <span class="faq-plus">
+          +
+        </span>
+
+      </button>
+
+
+      <div class="faq-answer">
+
         No. RankRush does not guarantee a particular
-        amount of earnings from advertisements,
-        activities or leaderboard participation.
-        Any applicable rewards are subject to the
-        current RankRush rules and Terms of Service.
+        amount of earnings from surveys, quizzes,
+        referrals or other activities.
+
       </div>
+
     </div>
 
-    <div class="faq-item reveal">
-      <button class="faq-question" type="button">
-        <span>Can advertising providers differ between platforms?</span>
-        <span class="faq-plus">+</span>
-      </button>
-      <div class="faq-answer">
-        Yes. RankRush may use different advertising
-        providers or technologies depending on whether
-        you are using the Android application or the
-        H5/web experience. The applicable provider may
-        have its own privacy policy and data practices.
-      </div>
-    </div>
 
     <div class="faq-item reveal">
-      <button class="faq-question" type="button">
-        <span>What information does RankRush collect?</span>
-        <span class="faq-plus">+</span>
+
+      <button
+        class="faq-question"
+        type="button"
+      >
+
+        <span>
+          Can survey providers have different rules?
+        </span>
+
+        <span class="faq-plus">
+          +
+        </span>
+
       </button>
+
+
       <div class="faq-answer">
+
+        Yes. Third-party survey providers may have
+        their own privacy policies, Terms of Service,
+        age requirements, country restrictions and
+        survey eligibility requirements.
+
+      </div>
+
+    </div>
+
+
+    <div class="faq-item reveal">
+
+      <button
+        class="faq-question"
+        type="button"
+      >
+
+        <span>
+          What information does RankRush collect?
+        </span>
+
+        <span class="faq-plus">
+          +
+        </span>
+
+      </button>
+
+
+      <div class="faq-answer">
+
         Depending on the features you use, RankRush
-        may collect account information such as your
-        email address and username, as well as activity,
-        XP, reward and session information. Advertising
-        and analytics providers may also process certain
-        device or advertising information. See the
-        RankRush Privacy Policy for the complete details.
+        may collect account information, XP,
+        activity history, reward information,
+        session information and technical data.
+        Survey providers may separately collect
+        information required for their services.
+
       </div>
+
     </div>
 
+
     <div class="faq-item reveal">
-      <button class="faq-question" type="button">
-        <span>Where can I read the privacy policy?</span>
-        <span class="faq-plus">+</span>
+
+      <button
+        class="faq-question"
+        type="button"
+      >
+
+        <span>
+          Where can I read the privacy policy?
+        </span>
+
+        <span class="faq-plus">
+          +
+        </span>
+
       </button>
+
+
       <div class="faq-answer">
-        The current RankRush Privacy Policy is available
-        from the footer of this website and inside the
-        platform where applicable.
+
+        The current RankRush Privacy Policy is
+        available from the website footer and
+        inside the platform where applicable.
+
       </div>
+
     </div>
+
 
   </div>
+
 </section>
 
-<!-- DOWNLOAD / ACCESS -->
+
+<!-- =========================================================
+     DOWNLOAD
+========================================================= -->
+
 <section id="download" class="download-section">
+
   <div class="download-inner">
 
-    <div class="reveal">
-      <span class="label">Get RankRush</span>
 
-      <h2 class="display-sm" style="margin:.75rem 0 1rem">
+    <div class="reveal">
+
+      <span class="label">
+        Get RankRush
+      </span>
+
+
+      <h2
+        class="display-sm"
+        style="margin:.75rem 0 1rem"
+      >
+
         Ready to compete?
+
       </h2>
 
+
       <p class="body-lg">
-        Create your RankRush account, answer quizzes,
-        build your XP and compete on the leaderboard.
-        RankRush may be available through Android and
-        supported H5/web experiences.
+
+        Create your RankRush account, answer
+        quizzes, build your XP, explore available
+        surveys and compete on the leaderboard.
+
       </p>
+
     </div>
+
 
     <div class="download-actions reveal">
 
-      <a href="./download/android/RankRush.apk" class="btn-primary">
+
+      <a
+        href="./download/android/RankRush.apk"
+        class="btn-primary"
+      >
         Download Android APK
       </a>
 
-      <a href="https://rankrush-wdq7.onrender.com" class="btn-secondary">
+
+      <a
+        href="https://rankrush-wdq7.onrender.com"
+        class="btn-secondary"
+      >
         Open RankRush H5
       </a>
 
+
     </div>
 
+
     <p class="download-note">
-      Android and H5/web availability, supported versions,
-      features and advertising experiences may vary.
-      Only use official RankRush links and sources.
+
+      Survey availability, supported versions,
+      features and rewards may vary. Only use
+      official RankRush links and sources.
+
     </p>
 
+
   </div>
+
 </section>
 
-<!-- FOOTER -->
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
 <footer>
 
+
   <div class="footer-left">
+
     <div class="nav-logo">
+
       <div
         class="nav-logo-mark"
         style="
@@ -719,59 +1546,91 @@
           border-radius:7px;
           font-size:.85rem;
         "
-      >R</div>
+      >
+        R
+      </div>
+
       RankRush
+
     </div>
 
+
     <span class="footer-copy">
+
       © 2026 RankRush. All rights reserved.
+
     </span>
+
   </div>
+
 
   <div class="footer-links">
-    <a href="/privacy">Privacy Policy</a>
-    <a href="/terms">Terms of Service</a>
-    <a href="mailto:zannur123456789@gmail.com">Contact</a>
+
+    <a href="/privacy.html">
+      Privacy Policy
+    </a>
+
+    <a href="/terms.html">
+      Terms of Service
+    </a>
+
+    <a href="mailto:zannur123456789@gmail.com">
+      Contact
+    </a>
+
   </div>
 
+
   <div class="footer-right">
+
     Built with Capacitor · Supabase
+
   </div>
+
 
 </footer>
 
-<!-- JAVASCRIPT -->
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
 <script>
+
 /* =========================================================
    SAMPLE LEADERBOARD
-   This is demonstration data only.
-   ========================================================= */
+========================================================= */
 
 const PLAYERS = [
+
   {
     name: "Player_01",
     xp: 28400,
     av: "P1",
     col: "#8B1A2E"
   },
+
   {
     name: "Player_02",
     xp: 25100,
     av: "P2",
     col: "#2C5364"
   },
+
   {
     name: "Player_03",
     xp: 21800,
     av: "P3",
     col: "#3D5A3E"
   },
+
   {
     name: "Player_04",
     xp: 18200,
     av: "P4",
     col: "#4A3060"
   },
+
   {
     name: "You",
     xp: 520,
@@ -779,150 +1638,228 @@ const PLAYERS = [
     col: "#9B1627",
     me: true
   }
+
 ];
 
-function renderTicker() {
-  const board = document.getElementById("tickerBoard");
 
-  if (!board) {
+function renderTicker(){
+
+  const board =
+    document.getElementById("tickerBoard");
+
+  if(!board){
     return;
   }
 
-  const sorted = [...PLAYERS].sort((a, b) => b.xp - a.xp);
 
-  board.innerHTML = sorted.map((player, index) => {
-    const rankClass =
-      index === 0
-        ? "r1"
-        : index === 1
-        ? "r2"
-        : index === 2
-        ? "r3"
-        : "";
+  const sorted =
+    [...PLAYERS].sort(
+      (a,b) => b.xp - a.xp
+    );
 
-    return `
-      <div class="ticker-row">
-        <div class="ticker-rank ${rankClass}">
-          ${index + 1}
+
+  board.innerHTML =
+    sorted.map((player,index) => {
+
+      const rankClass =
+        index === 0
+          ? "r1"
+          : index === 1
+          ? "r2"
+          : index === 2
+          ? "r3"
+          : "";
+
+
+      return `
+
+        <div class="ticker-row">
+
+          <div class="ticker-rank ${rankClass}">
+            ${index + 1}
+          </div>
+
+
+          <div
+            class="ticker-av"
+            style="background:${player.col}"
+          >
+            ${player.av}
+          </div>
+
+
+          <div class="ticker-info">
+
+            <strong>
+              ${player.me ? "You" : player.name}
+            </strong>
+
+            <span>
+              ${player.xp.toLocaleString()} XP
+            </span>
+
+          </div>
+
+
+          <div class="ticker-xp">
+            ${player.xp.toLocaleString()}
+          </div>
+
         </div>
 
-        <div
-          class="ticker-av"
-          style="background:${player.col}"
-        >
-          ${player.av}
-        </div>
+      `;
 
-        <div class="ticker-info">
-          <strong>
-            ${player.me ? "You" : player.name}
-          </strong>
-          <span>
-            ${player.xp.toLocaleString()} XP
-          </span>
-        </div>
+    }).join("");
 
-        <div class="ticker-xp">
-          ${player.xp.toLocaleString()}
-        </div>
-      </div>
-    `;
-  }).join("");
 }
+
 
 renderTicker();
 
+
 /* =========================================================
    FAQ
-   ========================================================= */
+========================================================= */
 
 document
   .querySelectorAll(".faq-question")
   .forEach(button => {
+
     button.addEventListener("click", () => {
-      const item = button.closest(".faq-item");
-      const isOpen = item.classList.contains("open");
+
+      const item =
+        button.closest(".faq-item");
+
+      const isOpen =
+        item.classList.contains("open");
+
 
       document
         .querySelectorAll(".faq-item")
         .forEach(other => {
+
           other.classList.remove("open");
 
-          const plus = other.querySelector(".faq-plus");
 
-          if (plus) {
+          const plus =
+            other.querySelector(".faq-plus");
+
+
+          if(plus){
             plus.textContent = "+";
           }
+
         });
 
-      if (!isOpen) {
+
+      if(!isOpen){
+
         item.classList.add("open");
 
-        const plus = item.querySelector(".faq-plus");
 
-        if (plus) {
+        const plus =
+          item.querySelector(".faq-plus");
+
+
+        if(plus){
           plus.textContent = "−";
         }
+
       }
+
     });
+
   });
+
 
 /* =========================================================
    SCROLL REVEAL
-   ========================================================= */
+========================================================= */
 
-const revealObserver = new IntersectionObserver(
-  entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
+const revealObserver =
+  new IntersectionObserver(
 
-        revealObserver.unobserve(entry.target);
-      }
-    });
-  },
-  {
-    threshold: 0.12
-  }
-);
+    entries => {
+
+      entries.forEach(entry => {
+
+        if(entry.isIntersecting){
+
+          entry.target.classList.add("visible");
+
+          revealObserver.unobserve(
+            entry.target
+          );
+
+        }
+
+      });
+
+    },
+
+    {
+      threshold:0.12
+    }
+
+  );
+
 
 document
   .querySelectorAll(".reveal")
   .forEach(element => {
+
     revealObserver.observe(element);
+
   });
+
 
 /* =========================================================
    SMOOTH INTERNAL NAVIGATION
-   ========================================================= */
+========================================================= */
 
 document
   .querySelectorAll('a[href^="#"]')
   .forEach(link => {
-    link.addEventListener("click", event => {
-      const targetId = link.getAttribute("href");
 
-      if (!targetId || targetId === "#") {
+    link.addEventListener("click", event => {
+
+      const targetId =
+        link.getAttribute("href");
+
+
+      if(
+        !targetId ||
+        targetId === "#"
+      ){
         return;
       }
 
-      const target = document.querySelector(targetId);
 
-      if (target) {
+      const target =
+        document.querySelector(targetId);
+
+
+      if(target){
+
         event.preventDefault();
 
+
         target.scrollIntoView({
-          behavior: "smooth",
-          block: "start"
+
+          behavior:"smooth",
+
+          block:"start"
+
         });
+
       }
+
     });
+
   });
 
-/*
-  Normal browser functionality is intentionally preserved.
-*/
 </script>
 
 </body>
 </html>
+```
